@@ -40,7 +40,7 @@
 	var default_options = {
 		host:'',
 		port:80,
-		initPageNum:1
+		initPageNum:1,
 		path:'',
 		params:'',
 		pageParam:'page',
@@ -77,9 +77,8 @@
 						body += chunk;
 					});
 					response.addListener('end', function(){
-			            console.log(body);
-			            eval(body);
-						
+                        console.log(body);
+                        eval(body);
 						console.log(me.tempResult.length);
 						option.callback(me.tempResult);
 					});
