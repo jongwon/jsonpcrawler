@@ -1,7 +1,8 @@
 /* ***** BEGIN LICENSE BLOCK *****
  * Distributed under the BSD license:
  *
- * Copyright (c) 2010, Ajax.org B.V.
+ * Copyright (c) 2012, soreply.com & jongwons.choi@gmail.com
+ * 
  * All rights reserved.
  * 
  * Redistribution and use in source and binary forms, with or without
